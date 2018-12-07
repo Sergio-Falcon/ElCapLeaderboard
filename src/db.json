@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "climberjane",
+      "name": "Jane",
+      "challenge": "buttress",
+      "feetClimbed": 1052
+    },
+    {
+      "id": 1,
+      "username": "bouldererjohn",
+      "name": "John",
+      "challenge": "buttress",
+      "feetClimbed": 1009
+    },
+    {
+      "id": 2,
+      "username": "ilovetrad",
+      "name": "Diego",
+      "challenge": "buttress",
+      "feetClimbed": 892
+    },
+    {
+      "id": 3,
+      "username": "crackclimber",
+      "name": "Henry",
+      "challenge": "buttress",
+      "feetClimbed": 745
+    },
+    {
+      "id": 4,
+      "username": "monos4life",
+      "name": "Thanh",
+      "challenge": "buttress",
+      "feetClimbed": 701
+    },
+    {
+      "id": 5,
+      "username": "josechmoe89",
+      "name": "Jose",
+      "challenge": "buttress",
+      "feetClimbed": 675
+    },
+    {
+      "id": 6,
+      "username": "pinches&crimps",
+      "name": "Sergio",
+      "challenge": "buttress",
+      "feetClimbed": 623
+    },
+    {
+      "id": 7,
+      "username": "bigcrimpin",
+      "name": "Jesse",
+      "challenge": "buttress",
+      "feetClimbed": 445
+    },
+    {
+      "id": 8,
+      "username": "johndoe23",
+      "name": "John",
+      "challenge": "buttress",
+      "feetClimbed": 228
+    },
+    {
+      "id": 9,
+      "username": "johndoe45",
+      "name": "John",
+      "challenge": "buttress",
+      "feetClimbed": 48
+    },
+    {
+      "id": 10,
+      "username": "juststartingout",
+      "name": "Justin",
+      "challenge": "buttress",
+      "feetClimbed": 36
+    },
+    {
+      "id": 11,
+      "username": "climbingisfun",
+      "name": "Nestor",
+      "challenge": "buttress",
+      "feetClimbed": 12
+    },
+    {
+      "id": 12,
+      "username": "hiker",
+      "name": "Amber",
+      "challenge": "buttress",
+      "feetClimbed": 2
+    }
+  ]
+}
