@@ -10,19 +10,16 @@ class App extends Component {
     buttress: []
   }
 
-  getFCCData(url, stateName) {
-    console.log(1);
+  getData(url, stateName) {
     axios.get(url)
       .then(({ data} ) => {
         this.setState({ [stateName]: data });
         //console.log(this.state.buttress);
-        //console.log(1);
       })
   }
 
   componentDidMount() {
-    this.getFCCData('https://my-json-server.typicode.com/Sergio-Falcon/fakeData/users', 'buttress');
-
+    this.getData('https://my-json-server.typicode.com/Sergio-Falcon/fakeData/users', 'buttress');
   }
   
 
@@ -50,6 +47,7 @@ class App extends Component {
     
     //{index + 1}
     //console.log("Butt", buttress[2])
+    
     const {buttress} = this.state;
     return (
 
