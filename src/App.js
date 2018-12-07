@@ -22,7 +22,6 @@ class App extends Component {
 
   componentDidMount() {
     this.getFCCData('https://my-json-server.typicode.com/Sergio-Falcon/fakeData/users', 'buttress');
-    //this.getFCCData('https://fcctop100.herokuapp.com/api/fccusers/top/alltime', 'top100AllTime');
 
   }
   
