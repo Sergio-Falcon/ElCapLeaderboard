@@ -2,25 +2,34 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//import { render } from "react-dom";
+//import { makeData, Logo, Tips } from "./Utils";
+
+// Import Table
+
+//import BasicTable from './scrolltable'
+//import RTable from './RTable'
+import Leaderboard from './Leaderboard'
+//import ColumnAlignTable from './ColumnAlignTable'
+
 class App extends Component {
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div className='App'> 
+        <div className="header">
+          <div className="firstHalf">
+            <img src={logo} className="logo" alt="logo" />
+            <span className="climbalytics">CLIMBALYTICS</span>
+          </div>
+          <div className="secondHalf">
+            <span className="title">El Capitan Challenge</span>
+            <span className="date">March 2019</span>
+          </div>
+          
+        </div>
+          <Leaderboard />
+        </div>
     );
   }
 }
