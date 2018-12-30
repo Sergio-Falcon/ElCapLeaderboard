@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+<<<<<<< HEAD
     "namor": "^1.1.1",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
@@ -11,6 +12,12 @@
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.1",
     "react-table": "^6.8.6"
+=======
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+>>>>>>> f82a6134b7f95c1e52bf6c66764329ba6ecbdc0d
   },
   "scripts": {
     "start": "react-scripts start",
