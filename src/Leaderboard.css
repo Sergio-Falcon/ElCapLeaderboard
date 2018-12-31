@@ -1,16 +1,10 @@
 .leaderboard {
   text-align: center;
-  background-color: white;
+  background-color: black;
   font-family: "Helvetica Neue";
   font-size: 12px;
   color: black;
   display: flex;
-  max-height: 500px;
+  max-height: 100%;
   max-width: 100%;
-}
-.Body {
-  border-top: 20px solid #222222;
-  border-left: 20px solid #222222;
-  border-right: 20px solid #222222;
-  border-bottom: 20px solid #222222;
 }

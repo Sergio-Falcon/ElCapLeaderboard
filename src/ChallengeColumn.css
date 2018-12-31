@@ -1,43 +1,61 @@
 .buttress {
   background-color: #48cbd3;
   position: relative;
-  width: 25%;
+  width: 100%;
   top: 0px;
   left: 0px;
-  border-top: 10px solid #222222;
-  border-right: 10px solid #222222;
-  border-bottom: 10px solid #222222;
-  border-left: 10px solid #222222;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.buttress tbody {
+  display: block;
+  height:70vh;
+  overflow: auto;
+}
+#inner{
+    height: 100%;
+    overflow: auto;
+    height: 100%;
+    padding-right: 15px;
 }
 .buttress td:nth-of-type(1) {
+  width: 80vh;
   background: white;
   border-bottom: 2px solid #48cbd3;
   opacity: 0.7;
   text-align: left;
 }
 .buttress td:nth-of-type(2) {
+  width: 20vh;
   background: white;
   border-bottom: 2px solid #48cbd3;
   opacity: 0.7;
 }
+
 .dolt {
   background-color: #8357aa;
   position: relative;
-  width: 25%;
+  width: 100%;
+  margin-right: 20px;
   top: 0px;
   left: 0px;
-  border-top: 10px solid #222222;
-  border-right: 10px solid #222222;
-  border-bottom: 10px solid #222222;
-  border-left: 10px solid #222222;
+}
+.dolt tbody {
+  display: block;
+  height:70vh;
+  overflow: auto;
 }
 .dolt td:nth-of-type(1) {
+  visibility: visible;
+  width: 80vh;
   background: white;
   border-bottom: 2px solid #8357aa;
   opacity: 0.7;
   text-align: left;
 }
 .dolt td:nth-of-type(2) {
+  visibility: visible;
+  width: 20vh;
   background: white;
   border-bottom: 2px solid #8357aa;
   opacity: 0.7;
@@ -45,21 +63,27 @@
 .roof {
   background-color: #b2da4e;
   position: relative;
-  width: 25%;
+  width: 100%;
+  margin-right: 20px;
   top: 0px;
   left: 0px;
-  border-top: 10px solid #222222;
-  border-right: 10px solid #222222;
-  border-bottom: 10px solid #222222;
-  border-left: 10px solid #222222;
+}
+.roof tbody {
+  display: block;
+  height:70vh;
+  overflow: auto;
 }
 .roof td:nth-of-type(1) {
+  visibility: visible;
+  width: 80vh;
   background: white;
   border-bottom: 2px solid #b2da4e;
   opacity: 0.7;
   text-align: left;
 }
 .roof td:nth-of-type(2) {
+  visibility: visible;
+  width: 20vh;
   background: white;
   border-bottom: 2px solid #b2da4e;
   opacity: 0.7;
@@ -67,21 +91,27 @@
 .nose {
   background-color: #f0ad42;
   position: relative;
-  width: 25%;
+  width: 100%;
+  margin-right: 20px;
   top: 0px;
   left: 0px;
-  border-top: 10px solid #222222;
-  border-right: 10px solid #222222;
-  border-bottom: 10px solid #222222;
-  border-left: 10px solid #222222;
+}
+.nose tbody {
+  display: block;
+  height:70vh;
+  overflow: auto;
 }
 .nose td:nth-of-type(1) {
+  visibility: visible;
+  width: 80vh;
   background: white;
   border-bottom: 2px solid #f0ad42;
   opacity: 0.7;
   text-align: left;
 }
 .nose td:nth-of-type(2) {
+  visibility: visible;
+  width: 20vh;
   background: white;
   border-bottom: 2px solid #f0ad42;
   opacity: 0.7;
